@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyVehicle
 {
@@ -10,12 +6,12 @@ namespace MyVehicle
     {
         static void Main(string[] args)
         {
-            Car car = new Car();
+            Car kia = new Kia();
 
-           Console.WriteLine(car.StartEngine());
-           Console.WriteLine(car.Drive(Vehicle.Direction.Forward));
-           Console.WriteLine(car.Brake());
-           Console.WriteLine(car.StopEngine());
+           Console.WriteLine(kia.StartEngine());
+           Console.WriteLine(kia.Drive(Vehicle.Direction.Forward));
+           Console.WriteLine(kia.Brake());
+           Console.WriteLine(kia.StopEngine());
         }
     }
 }
